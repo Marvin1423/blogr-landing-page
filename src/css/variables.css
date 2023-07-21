@@ -1,0 +1,10 @@
+:root{
+    --clr-light: hsl(356, 100%, 66%);
+    --clr-very-light: hsl(355, 100%, 74%);
+    --clr-very-dark: hsl(208, 49%, 24%);
+    
+    --clr-neutral: hsl(0, 0%, 100%);
+    --clr-dark-neutral: hsl(240, 1%, 85%);
+    --clr-very-dark-neutral: hsl(207, 13%, 34%);
+    --clr-bg-footer: hsl(240, 10%, 16%);
+}

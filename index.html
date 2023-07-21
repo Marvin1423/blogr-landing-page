@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+
+  <title>[Blogr]</title>
+
+<body>
+  <main class="hero">
+    <img class="hero__bg" src="src/images/bg-pattern-intro-desktop.svg" alt="bg pattern intro">
+
+    <header>
+      <img class="logo" src="src/images/logo.svg" alt="logo blogr">
+
+        <nav>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__item-btn" href="#">Product</a>
+              <div class="menu__sub-items">
+                <a href="#">Overview</a>
+                <a href="#">Pricing</a>
+                <a href="#">Marketplace</a>
+                <a href="#">Features</a>
+                <a href="#">Integrations</a>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-btn" href="#">Company</a>
+              <div class="menu__sub-items">
+                <a href="#">About</a>
+                <a href="#">Team</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a class="menu__item-btn" href="#">Connect</a>
+              <div class="menu__sub-items">
+                <a href="#">Contact</a>
+                <a href="#">Newsletter</a>
+                <a href="#">Linkedin</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="buttons">
+            <button class="white-text-btn">Login</button>
+            <button class="white-bg-btn">Sign Up</button>
+          </div>
+        </nav>
+
+        <div class="menu-mobile">
+          <div id="menu-mobile" class="menu-mobile-btn">
+            <div class="menu-mobile-icon">
+            </div>
+          </div>
+
+          <nav id="menu-hamburguer-content">
+            <ul class="menu">
+              <li class="menu__item">
+                <a class="menu__item-btn" href="#">Product</a>
+                <div class="menu__sub-items">
+                  <a href="#">Overview</a>
+                  <a href="#">Pricing</a>
+                  <a href="#">Marketplace</a>
+                  <a href="#">Features</a>
+                  <a href="#">Integrations</a>
+                </div>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-btn" href="#">Company</a>
+                <div class="menu__sub-items">
+                  <a href="#">About</a>
+                  <a href="#">Team</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Careers</a>
+                </div>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-btn" href="#">Connect</a>
+                <div class="menu__sub-items">
+                  <a href="#">Contact</a>
+                  <a href="#">Newsletter</a>
+                  <a href="#">Linkedin</a>
+                </div>
+              </li>
+            </ul>
+  
+            <div class="buttons">
+              <button class="white-text-btn">Login</button>
+              <button class="white-bg-btn">Sign Up</button>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <div class="hero__content">
+      <h1 class="hero__content_title">A modern publishing platform</h1>
+      <p class="hero__content_desc">Grow your audience and build your online brand</p>
+
+      <div>
+        <button class="white-bg-btn">Start for Free</button>
+        <button class="white-text-btn">Learn More</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="about">
+    <h1 class="about_title">Designed for the future</h1>
+
+    <div class="about__content">
+      <div class="about__text">
+        <div class="about__text_child">
+          <h3 class="about__text_child_title">Introducing an extensible editor</h3>
+          <p class="about__text_child_desc">Blogr features an exceedingly intuitive interface which lets you focus on
+            one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation
+            of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to
+            add functionality or change the looks of a blog.</p>
+        </div>
+
+        <div class="about__text_child">
+          <h3 class="about__text_child_title">Robust content management</h3>
+          <p class="about__text_child_desc">Flexible content management enables users to easily move through posts.
+            Increase the usability of your blog by adding customized categories, sections, format, or flow. With this
+            functionality, you're in full control.</p>
+        </div>
+      </div>
+
+      <div class="about__img-div">
+        <picture>
+          <source srcset="src/images/illustration-editor-mobile.svg" media="(max-width: 1000px)">
+          <img class="about__img" src="src/images/illustration-editor-desktop.svg" alt="illustration editor">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-2">
+    <img class="about-2__image" src="src/images/illustration-phones.svg" alt="illustration phones">
+    
+    <div class="about-2__content">
+      <h1 class="about-2__content_title">State of the Art Infrastructure</h1>
+      <p class="about-2__content_desc">With reliability and speed in mind, worldwide data centers provide the backbone
+        for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are,
+        keeping your site competitive.</p>
+    </div>
+  </section>
+
+  <section class="about-3">
+    <div class="about-3__img-div">
+      <picture>
+        <source srcset="src/images/illustration-laptop-mobile.svg" media="(max-width: 800px)">
+        <img class="about-3__img" src="src/images/illustration-laptop-desktop.svg" alt="illustration laptop">
+      </picture>
+    </div>
+
+    <div class="about-3__content">
+      <div class="about-3__content_text">
+        <h1 class="about-3__content_text_title">Free, open, simple</h1>
+        <p class="about-3__content_text_desc">Blogr is a free and open source application backed by a large community of
+          helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media
+          integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is
+          clean and is relatively easy to learn.</p>
+      </div>
+
+      <div class="about-3__content_text">
+        <h1 class="about-3__content_text_title">Powerful tooling</h1>
+        <p class="about-3__content_text_desc">Batteries included. We built a simple and straightforward CLI tool that
+          makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <img class="logo" src="src/images/logo.svg" alt="logo blogr">
+
+    <div class="footer__column">
+      <h4 class="footer__column_title">Product</h4>
+
+      <a class="footer__column_item" href="#">Overview</a>
+      <a class="footer__column_item" href="#">Pricing</a>
+      <a class="footer__column_item" href="#">Marketplace</a>
+      <a class="footer__column_item" href="#">Features</a>
+      <a class="footer__column_item" href="#">Integrations</a>
+    </div>
+
+    <div class="footer__column">
+      <h4 class="footer__column_title">Company</h4>
+
+      <a class="footer__column_item" href="#">About</a>
+      <a class="footer__column_item" href="#">Team</a>
+      <a class="footer__column_item" href="#">Blog</a>
+      <a class="footer__column_item" href="#">Careers</a>
+    </div>
+
+    <div class="footer__column">
+      <h4 class="footer__column_title">Connect</h4>
+
+      <a class="footer__column_item" href="#">Contact</a>
+      <a class="footer__column_item" href="#">Newsletter</a>
+      <a class="footer__column_item" href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
