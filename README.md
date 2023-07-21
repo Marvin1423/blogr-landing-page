@@ -1,7 +1,6 @@
 # Blogr landing page
-Desafio de JS intermediário para criação de um formulário com validação
 
-<h2 align="center">🔗 Link da página</h2>
+<h3>🔗 Link da página</h2>
 <p>Abaixo temos o link da página para visualização e testes:</p>
 👉 <a href="https://marvin1423.github.io/form-validation/" target="_blank">Blogr ⚔</a>
 
