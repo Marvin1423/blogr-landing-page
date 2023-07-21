@@ -2,7 +2,7 @@
 
 <h3>🔗 Link da página</h2>
 <p>Abaixo temos o link da página para visualização e testes:</p>
-👉 <a href="https://marvin1423.github.io/form-validation/" target="_blank">Blogr ⚔</a>
+👉 <a href="https://marvin1423.github.io/blogr-landing-page/" target="_blank">Blogr ⚔</a>
 
 #
 
